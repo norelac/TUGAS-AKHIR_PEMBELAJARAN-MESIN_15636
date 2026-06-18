@@ -1,0 +1,37 @@
+{
+    "best_model": "SVM Linear Kernel",
+    "best_model_params": "CalibratedClassifierCV(estimator=LinearSVC(max_iter=5000, random_state=42))",
+    "tfidf_config": {
+        "max_features": 10000,
+        "ngram_range": [
+            1,
+            2
+        ],
+        "sublinear_tf": true,
+        "min_df": 2
+    },
+    "training_samples": 24576,
+    "test_samples": 6145,
+    "smote_applied": true,
+    "metrics": {
+        "MNB": {
+            "accuracy": 0.8771358828315704,
+            "precision": 0.8776280295086684,
+            "recall": 0.8771358828315704,
+            "f1_score": 0.8770954190390104,
+            "roc_auc": 0.9519057534032975
+        },
+        "SVM": {
+            "accuracy": 0.8808787632221318,
+            "precision": 0.8809566122507457,
+            "recall": 0.8808787632221318,
+            "f1_score": 0.8808725167630409,
+            "roc_auc": 0.9528725704048704
+        }
+    },
+    "label_mapping": {
+        "0": "Fakta",
+        "1": "Hoaks"
+    },
+    "training_duration": "27.47 detik"
+}
